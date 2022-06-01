@@ -1,5 +1,10 @@
 import pickle
 import validators
+import pandas as pd
+import numpy as np
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import ExtraTreesClassifier
+from sklearn.metrics import roc_auc_score
 
 model = pickle.load(open("final_model.pkl", "rb"))
 

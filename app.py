@@ -1,6 +1,10 @@
-from logging import PlaceHolder
 import streamlit as st
 from predict_function import *
+
+import pickle
+import validators
+
+model = pickle.load(open("final_model.pkl", "rb"))
 
 st.title("URL Spam Detector")
 st.write("deskripsi")
