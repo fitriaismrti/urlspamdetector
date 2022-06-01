@@ -7,7 +7,7 @@ import validators
 model = pickle.load(open("final_model.pkl", "rb"))
 
 st.title("URL Spam Detector")
-st.write("deskripsi")
+st.write("updated deskripsi")
 
 link = st.text_input(label = "Input URL", placeholder = "insert your url here")
 
