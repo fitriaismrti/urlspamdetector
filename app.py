@@ -11,7 +11,7 @@ st.write("We made this application to help you find out if a link is spam or not
 
 link = st.text_input(label = "Input URL", placeholder = "Insert your url here")
 
-if st.button("check"):
+if st.button("Check"):
     if link == '':
         st.write("Please input the link")
     else:
